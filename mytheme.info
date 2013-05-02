@@ -1,0 +1,19 @@
+name = My great theme
+description = A great theme
+core = 7.x 
+engine = phptemplate
+screenshot = screenshot.png
+;stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/navigation.css
+; Regions
+; ----------------------
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar 
+; Required Core Regions
+; ------------------------
+regions[page_top] =  Page top 
+regions[page_bottom] = Page bottom
